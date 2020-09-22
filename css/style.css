@@ -1,11 +1,3 @@
-/*
-style.css v1.0
-Author: Sergey Kushnir
-(c) 2012-2015 IT DEV GROUP
-http://it-devgroup.com
-*/
-
-
 
 /*=============COMMON STYLE========*/
 body {
@@ -92,23 +84,23 @@ h6 {
 /*=============HEADER=============*/
 .header {
 	width: 100%;
-	/* узнать и задать градиет для шапки 
-	background: rgb();
-	background: -moz-linear-gradient();
-	background: -webkit-linear-gradient();
-	background: -o-linear-gradient();
-	background: -ms-linear-gradient();
-	background: linear-gradient();
-	*/
-	/* задать высоту шапки
-	min-height: ;
-	*/
+	/* СѓР·РЅР°С‚СЊ Рё Р·Р°РґР°С‚СЊ РіСЂР°РґРёРµС‚ РґР»СЏ С€Р°РїРєРё
+    background: rgb();
+    background: -moz-linear-gradient();
+    background: -webkit-linear-gradient();
+    background: -o-linear-gradient();
+    background: -ms-linear-gradient();
+    background: linear-gradient();
+    */
+	/* Р·Р°РґР°С‚СЊ РІС‹СЃРѕС‚Сѓ С€Р°РїРєРё
+    min-height: ;
+    */
 }
 
 .logo {
 	display: block;
 	float: left;
-	margin: 10px 0; 
+	margin: 10px 0;
 	height: 100px;
 }
 .logo:hover {opacity: 0.8;}
@@ -121,12 +113,12 @@ h6 {
 .banner img {display: block;}
 
 .color-strip {
-	/* задать высоту цветной полоски 
-	height: ;
-	*/
-	/* вырезать и укзать фон для цветной подложки
-	background: url(../img/) 0 0 repeat-x;
-	*/
+	/* Р·Р°РґР°С‚СЊ РІС‹СЃРѕС‚Сѓ С†РІРµС‚РЅРѕР№ РїРѕР»РѕСЃРєРё
+    height: ;
+    */
+	/* РІС‹СЂРµР·Р°С‚СЊ Рё СѓРєР·Р°С‚СЊ С„РѕРЅ РґР»СЏ С†РІРµС‚РЅРѕР№ РїРѕРґР»РѕР¶РєРё
+    background: url(../img/) 0 0 repeat-x;
+    */
 	border-top: 3px solid #fff;
 	border-bottom: 2px solid #fff;
 	width: 100%;
@@ -135,10 +127,10 @@ h6 {
 
 /*=================MENU============*/
 .menu-wrap {
-/* задать высоту и цвет подложки меню
-	height: ;
-	background: ;
-*/
+	/* Р·Р°РґР°С‚СЊ РІС‹СЃРѕС‚Сѓ Рё С†РІРµС‚ РїРѕРґР»РѕР¶РєРё РјРµРЅСЋ
+    height: ;
+    background: ;
+    */
 	position: relative;
 }
 
@@ -149,22 +141,22 @@ ul.menu li {
 	position: relative;
 }
 ul.menu li a {
-/*задать параметры шрифта для пункта меню (обычные)
-	font-size: ;
-	text-transform: ;//заглавные
-	line-height: px;
-	color: #;
-	font-family: '';
-	font-weight: ; //жирность
-*/
+	/*Р·Р°РґР°С‚СЊ РїР°СЂР°РјРµС‚СЂС‹ С€СЂРёС„С‚Р° РґР»СЏ РїСѓРЅРєС‚Р° РјРµРЅСЋ (РѕР±С‹С‡РЅС‹Рµ)
+    font-size: ;
+    text-transform: ;//Р·Р°РіР»Р°РІРЅС‹Рµ
+    line-height: px;
+    color: #;
+    font-family: '';
+    font-weight: ; //Р¶РёСЂРЅРѕСЃС‚СЊ
+    */
 	display: block;
 	padding: 18px 0;
 }
 ul.menu li a:hover,
-ul.menu li.active a  {
-/*задать параметры шрифта для пункта меню (по наведению)
-	color: #6ab3ff;
-	*/
+ul.menu li.active a {
+	/*Р·Р°РґР°С‚СЊ РїР°СЂР°РјРµС‚СЂС‹ С€СЂРёС„С‚Р° РґР»СЏ РїСѓРЅРєС‚Р° РјРµРЅСЋ (РїРѕ РЅР°РІРµРґРµРЅРёСЋ)
+    color: #6ab3ff;
+    */
 }
 
 ul.menu li:hover ul.submenu {display: block;}
@@ -172,9 +164,9 @@ ul.menu li:hover ul.submenu {display: block;}
 .menu ul.submenu {
 	position: absolute;
 	z-index: 9;
-	/* цвет выпадающего меню
-	background:;
-	*/
+	/* С†РІРµС‚ РІС‹РїР°РґР°СЋС‰РµРіРѕ РјРµРЅСЋ
+    background:;
+    */
 	min-width: 170px;
 	left: -15px;
 	border-bottom: 2px solid #3c3c3c;
@@ -245,10 +237,10 @@ ul.menu li:hover ul.submenu {display: block;}
 .post-list {margin-bottom: 30px;}
 
 .post {
-/* Задать размер для блока поста
-	width: ;
-	height: ;
-*/
+	/* Р—Р°РґР°С‚СЊ СЂР°Р·РјРµСЂ РґР»СЏ Р±Р»РѕРєР° РїРѕСЃС‚Р°
+    width: ;
+    height: ;
+    */
 	float: left;
 	margin: 0 30px 30px 0;
 }
@@ -266,32 +258,32 @@ ul.menu li:hover ul.submenu {display: block;}
 	border-radius: 5px;
 	max-width: 100%;
 	max-height: 100%;
-	 -webkit-transition: all 0.3s;
-     -moz-transition: all 0.3s;
-     -o-transition: all 0.3s;
-     transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .post-title {
-/* задать шрифт, междустрочный интервал для заголовков постов 
-	font-family: '';
-	line-height: ;
-*/
+	/* Р·Р°РґР°С‚СЊ С€СЂРёС„С‚, РјРµР¶РґСѓСЃС‚СЂРѕС‡РЅС‹Р№ РёРЅС‚РµСЂРІР°Р» РґР»СЏ Р·Р°РіРѕР»РѕРІРєРѕРІ РїРѕСЃС‚РѕРІ
+    font-family: '';
+    line-height: ;
+    */
 	margin-bottom: 10px;
 	display: block;
-	 -webkit-transition: all 0.3s;
-     -moz-transition: all 0.3s;
-     -o-transition: all 0.3s;
-     transition: all 0.3s;
-    height: 50px;
-    overflow: hidden;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	height: 50px;
+	overflow: hidden;
 }
 
 .post-txt {
-/* задать шрифт, междустрочный интервал для текста постов
-	font-size: ;
-	line-height: ;
-*/
+	/* Р·Р°РґР°С‚СЊ С€СЂРёС„С‚, РјРµР¶РґСѓСЃС‚СЂРѕС‡РЅС‹Р№ РёРЅС‚РµСЂРІР°Р» РґР»СЏ С‚РµРєСЃС‚Р° РїРѕСЃС‚РѕРІ
+    font-size: ;
+    line-height: ;
+    */
 	height: 68px;
 	overflow: hidden;
 }
@@ -403,7 +395,7 @@ ul.pagination li.active a {
 }
 
 
-ul.breadcrumbs  {margin-bottom: 30px;}
+ul.breadcrumbs {margin-bottom: 30px;}
 ul.breadcrumbs li {
 	display: inline-block;
 }
@@ -522,9 +514,9 @@ a.next-public span.next-arrow {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	-webkit-transition: all 0.3s;
-     -moz-transition: all 0.3s;
-     -o-transition: all 0.3s;
-     transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 a.next-public:hover {color:#0a51b1;}
@@ -550,8 +542,8 @@ a.next-public:hover span.next-arrow {background-color: #0a51b1;}
 .text ul {margin: 10px 0 10px 20px;}
 .text ol {margin: 10px 0;}
 .text ol li {
-  list-style-type: decimal;
-  margin-left: 20px;
+	list-style-type: decimal;
+	margin-left: 20px;
 }
 
 .like-post {margin-bottom: 60px;}
@@ -670,11 +662,11 @@ textarea {
 	height: 40px;
 	text-transform: uppercase;
 	padding: 7px 0;
-	 -webkit-transition: all 0.3s;
-     -moz-transition: all 0.3s;
-     -o-transition: all 0.3s;
-     transition: all 0.3s;
-     cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	cursor: pointer;
 }
 
 .btn-2:hover {
@@ -715,13 +707,13 @@ ul.footer-menu li a {
 ul.footer-menu li a:hover {opacity: 0.7;}
 
 .subscription {
-	
+
 	text-align: center;
-	/* Задать высоту, цвет текста и подложки для полосы подписки 
-	color: ;
-	background: ;
-	height: ;
-	*/
+	/* Р—Р°РґР°С‚СЊ РІС‹СЃРѕС‚Сѓ, С†РІРµС‚ С‚РµРєСЃС‚Р° Рё РїРѕРґР»РѕР¶РєРё РґР»СЏ РїРѕР»РѕСЃС‹ РїРѕРґРїРёСЃРєРё
+    color: ;
+    background: ;
+    height: ;
+    */
 	display: table;
 	width: 100%;
 }
@@ -738,10 +730,10 @@ ul.footer-menu li a:hover {opacity: 0.7;}
 }
 
 .subscription input[type="email"] {
-/* задать размеры блока для ввода емейла
-	width: ;
-	height:;
-*/
+	/* Р·Р°РґР°С‚СЊ СЂР°Р·РјРµСЂС‹ Р±Р»РѕРєР° РґР»СЏ РІРІРѕРґР° РµРјРµР№Р»Р°
+    width: ;
+    height:;
+    */
 	display: inline-block;
 	border: 0;
 	background: #fff;
@@ -752,33 +744,33 @@ ul.footer-menu li a:hover {opacity: 0.7;}
 }
 
 .subscription .btn {
-/* задать размеры блока, цвета дла кнопки в полосе подписки
-	width: ;
-	height: ;
-	color: ;
-	background: ;
-	*/
+	/* Р·Р°РґР°С‚СЊ СЂР°Р·РјРµСЂС‹ Р±Р»РѕРєР°, С†РІРµС‚Р° РґР»Р° РєРЅРѕРїРєРё РІ РїРѕР»РѕСЃРµ РїРѕРґРїРёСЃРєРё
+    width: ;
+    height: ;
+    color: ;
+    background: ;
+    */
 	border: 0;
 	margin-left: 25px;
 	-webkit-transition: all 0.3s;
-     -moz-transition: all 0.3s;
-     -o-transition: all 0.3s;
-     transition: all 0.3s;
-     vertical-align: top;
-     font-family: 'opensans-extrabold';
-     font-size: 14px;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	vertical-align: top;
+	font-family: 'opensans-extrabold';
+	font-size: 14px;
 }
 .subscription .btn:hover {background: #25384c;}
 
 .footer {
-/* задать высоту, цвет текста, подложки, Размер шрифта и междустрочного
-интервала для футера 
-	background: ;
-	height: ;
-	color: ;
-	font-size: ;
-	line-height: ;
-	*/
+	/* Р·Р°РґР°С‚СЊ РІС‹СЃРѕС‚Сѓ, С†РІРµС‚ С‚РµРєСЃС‚Р°, РїРѕРґР»РѕР¶РєРё, Р Р°Р·РјРµСЂ С€СЂРёС„С‚Р° Рё РјРµР¶РґСѓСЃС‚СЂРѕС‡РЅРѕРіРѕ
+    РёРЅС‚РµСЂРІР°Р»Р° РґР»СЏ С„СѓС‚РµСЂР°
+    background: ;
+    height: ;
+    color: ;
+    font-size: ;
+    line-height: ;
+    */
 }
 
 .footer-logo {
@@ -831,5 +823,4 @@ ul.banner-list:after,
 }
 
 .both {clear: both;}
-
 
