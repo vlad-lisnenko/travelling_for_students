@@ -84,17 +84,12 @@ h6 {
 /*=============HEADER=============*/
 .header {
 	width: 100%;
-	/* узнать и задать градиет для шапки
-    background: rgb();
-    background: -moz-linear-gradient();
-    background: -webkit-linear-gradient();
-    background: -o-linear-gradient();
-    background: -ms-linear-gradient();
-    background: linear-gradient();
-    */
-	/* задать высоту шапки
-    min-height: ;
-    */
+	background: #005CFC;
+	background: -webkit-linear-gradient(to top right, #005CFC 0%, #99D3FD 100%);
+	background: -moz-linear-gradient(to top right, #005CFC 0%, #99D3FD 100%);
+	background: linear-gradient(to top right, #005CFC 0%, #99D3FD 100%);	
+    min-height: 120px;
+    
 }
 
 .logo {
@@ -113,12 +108,8 @@ h6 {
 .banner img {display: block;}
 
 .color-strip {
-	/* задать высоту цветной полоски
-    height: ;
-    */
-	/* вырезать и укзать фон для цветной подложки
-    background: url(../img/) 0 0 repeat-x;
-    */
+    height: 10px;
+    background: url(../img/lineColor.png) 0 0 repeat-x; 
 	border-top: 3px solid #fff;
 	border-bottom: 2px solid #fff;
 	width: 100%;
@@ -127,10 +118,8 @@ h6 {
 
 /*=================MENU============*/
 .menu-wrap {
-	/* задать высоту и цвет подложки меню
-    height: ;
-    background: ;
-    */
+    height: 60px;
+    background: #25384c;
 	position: relative;
 }
 
@@ -141,22 +130,21 @@ ul.menu li {
 	position: relative;
 }
 ul.menu li a {
-	/*задать параметры шрифта для пункта меню (обычные)
-    font-size: ;
-    text-transform: ;//заглавные
-    line-height: px;
-    color: #;
-    font-family: '';
-    font-weight: ; //жирность
-    */
+
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: normal;
+    color: #ffffff;
+    font-family: 'Times New Roman';
+    font-weight: bold; 
+    
 	display: block;
 	padding: 18px 0;
 }
+
 ul.menu li a:hover,
 ul.menu li.active a {
-	/*задать параметры шрифта для пункта меню (по наведению)
     color: #6ab3ff;
-    */
 }
 
 ul.menu li:hover ul.submenu {display: block;}
@@ -164,9 +152,8 @@ ul.menu li:hover ul.submenu {display: block;}
 .menu ul.submenu {
 	position: absolute;
 	z-index: 9;
-	/* цвет выпадающего меню
-    background:;
-    */
+    background: #177edd;
+    
 	min-width: 170px;
 	left: -15px;
 	border-bottom: 2px solid #3c3c3c;
@@ -237,10 +224,9 @@ ul.menu li:hover ul.submenu {display: block;}
 .post-list {margin-bottom: 30px;}
 
 .post {
-	/* Задать размер для блока поста
-    width: ;
-    height: ;
-    */
+    width: 370px;
+    height: 370px;
+   
 	float: left;
 	margin: 0 30px 30px 0;
 }
@@ -265,10 +251,11 @@ ul.menu li:hover ul.submenu {display: block;}
 }
 
 .post-title {
-	/* задать шрифт, междустрочный интервал для заголовков постов
-    font-family: '';
-    line-height: ;
-    */
+	/* задать шрифт, междустрочный интервал для заголовков постов*/
+    font-family: '[OpenSans]';
+	line-height: 30px;
+	font-size: 18px;
+    font-weight: bold; 
 	margin-bottom: 10px;
 	display: block;
 	-webkit-transition: all 0.3s;
@@ -280,10 +267,10 @@ ul.menu li:hover ul.submenu {display: block;}
 }
 
 .post-txt {
-	/* задать шрифт, междустрочный интервал для текста постов
-    font-size: ;
-    line-height: ;
-    */
+	/* задать шрифт, междустрочный интервал для текста постов*/
+    font-size: 14px;
+    line-height: 24px	;
+    
 	height: 68px;
 	overflow: hidden;
 }
@@ -709,11 +696,11 @@ ul.footer-menu li a:hover {opacity: 0.7;}
 .subscription {
 
 	text-align: center;
-	/* Задать высоту, цвет текста и подложки для полосы подписки
-    color: ;
-    background: ;
-    height: ;
-    */
+	/* Задать высоту, цвет текста и подложки для полосы подписки*/
+    color: #fff ;
+    background: #e61324;
+    height: 60px;
+    
 	display: table;
 	width: 100%;
 }
@@ -730,10 +717,10 @@ ul.footer-menu li a:hover {opacity: 0.7;}
 }
 
 .subscription input[type="email"] {
-	/* задать размеры блока для ввода емейла
-    width: ;
-    height:;
-    */
+	/* задать размеры блока для ввода емейла*/
+    width: 270px;
+    height: 40px;
+    
 	display: inline-block;
 	border: 0;
 	background: #fff;
@@ -744,12 +731,12 @@ ul.footer-menu li a:hover {opacity: 0.7;}
 }
 
 .subscription .btn {
-	/* задать размеры блока, цвета дла кнопки в полосе подписки
-    width: ;
-    height: ;
-    color: ;
-    background: ;
-    */
+	/* задать размеры блока, цвета дла кнопки в полосе подписки*/
+    width: 170px;
+    height: 40px;
+    color: #fff;
+    background:  #ad0815;
+    
 	border: 0;
 	margin-left: 25px;
 	-webkit-transition: all 0.3s;
@@ -763,14 +750,14 @@ ul.footer-menu li a:hover {opacity: 0.7;}
 .subscription .btn:hover {background: #25384c;}
 
 .footer {
-	/* задать высоту, цвет текста, подложки, Размер шрифта и междустрочного
-    интервала для футера
-    background: ;
-    height: ;
-    color: ;
-    font-size: ;
-    line-height: ;
-    */
+	/*задать высоту, цвет текста, подложки, Размер шрифта и междустрочного
+    интервала для футера*/
+    background: #0a51b1;
+    height: 86px;
+    color: #fff;
+    font-size: 14px;
+    line-height: normal;
+    
 }
 
 .footer-logo {
